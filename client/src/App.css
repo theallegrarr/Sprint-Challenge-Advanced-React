@@ -35,11 +35,54 @@
   width: 94%;
 }
 
+.toggledp{
+  background-color: white;
+}
+
 h2 {
+  width: 60%;
+  text-align: center;
+  font-size: 22pt;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  align-self: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   box-shadow: 0.5px 2px 7px #09d3ac;
   background-color: #09d3ac;
   border-radius: 10px;
-  text-align: center;
-  font-size: 32pt;
+  height: 40px;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
+.toggle {
+  background: #09d3ac;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+  padding-bottom: 2%;
+  padding-top: 5%;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+  align-self: center;
 }

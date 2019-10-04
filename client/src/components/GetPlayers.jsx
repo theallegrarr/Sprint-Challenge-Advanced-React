@@ -5,6 +5,7 @@ import PlayerCard from './PlayerCard';
 const playersApi = 'http://localhost:5000/api/players';
 
 export default class Market extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
