@@ -29,6 +29,6 @@ export default class Market extends React.Component {
     <>
      <PlayerCard players={this.state.players}/>
     </>
-    )
+    );
   }
  }
