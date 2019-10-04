@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import PlayerCard from './PlayerCard';
+import PlayerCard from './ShowPlayers';
 
 const playersApi = 'http://localhost:5000/api/players';
 

@@ -26,8 +26,4 @@ describe('Get Players Component', () => {
     const headingText = tools.queryByTestId('player-head');
     expect(headingText).toBeInTheDocument();
   });
-
-  it('contains name country and hits keys', () => {
-    
-  })
 })

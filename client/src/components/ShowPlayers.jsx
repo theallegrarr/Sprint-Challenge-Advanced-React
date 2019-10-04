@@ -17,7 +17,7 @@ export default function (props) {
   {
   props.players.map(player => {
     return(
-      <div className='player-details'>
+      <div className='player-details' data-testid='p-cards'>
         <h1>{player.name}</h1>
         <h4>Country: {player.country}</h4>
         <p>Search Hits: {player.searches}</p>
