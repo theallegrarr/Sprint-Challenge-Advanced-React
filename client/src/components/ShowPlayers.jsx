@@ -12,6 +12,7 @@ export default function (props) {
       <div
         className={mode ? 'toggle toggled' : 'toggle'}
         onClick={setMode}
+        data-testid='toggle-button'
       /></div>
     </div>
   {
