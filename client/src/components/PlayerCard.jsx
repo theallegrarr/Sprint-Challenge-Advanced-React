@@ -4,6 +4,7 @@ export default function (props) {
  
  return(
   <div className='p-cards'>
+  <h2>Players List</h2>
   {
   props.players.map(player => {
     return(
