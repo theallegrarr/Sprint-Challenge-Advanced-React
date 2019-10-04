@@ -8,13 +8,16 @@
 
 
 .player-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: left;
   margin-right: 1%;
   margin-bottom: 1%;
-  height: 140px;
+  height: 180px;
   background-color: #09d3ac;
   padding: 1%;
-  width: 250px;
+  width: 30%;
   box-shadow: 0.5px 2px 7px #09d3ac;
   border-radius: 10px;
 }
@@ -85,4 +88,8 @@ h2 {
   position: relative;
   width: 40px;
   align-self: center;
+}
+
+.__toggled {
+  background-color: black;
 }
